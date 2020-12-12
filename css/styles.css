@@ -1,0 +1,71 @@
+:root {
+ --body-background-color: #FFFFFF;
+ --footer-background-color: #2F303A;
+ --main-backgraund-color: #e5e5e5;
+ --text-wite-color: #FFFFFF;
+ --text-grey-color: #757575;
+ --text-black-color: #212121;
+ --buton-color: #F5F4FA;
+ --hover-text-color: #2196f3;
+} 
+
+/*общие*/
+a {
+ text-decoration: none;
+}
+
+li {
+ list-style: none;
+}
+
+.head {
+ color: var(--text-black-color);
+ background-color: var(--body-background-color);
+}
+
+body {
+ font-family: Roboto;
+}
+
+/*логотип-веб*/
+.logo {
+ font-family: Raleway;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.19;
+ letter-spacing: 0.03em; 
+ color: var(--hover-text-color);
+}
+.logo-web {
+ color: var(--text-black-color);
+}
+
+/*меню-контакты*/
+.nav {
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+ color: var(--text-black-color);
+}
+
+.nav:visited,
+.nav a:hover,
+.nav a:focus {
+ color: var(--hover-text-color);
+}
+  
+
+.header-link a {
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+ color: var(--grey-text-color);
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+ color: var(--hover-text-color);
+}
+  
