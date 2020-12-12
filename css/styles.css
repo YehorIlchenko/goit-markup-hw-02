@@ -64,8 +64,56 @@ body {
  color: var(--grey-text-color);
 }
 
-.header-contacts a:hover,
-.header-contacts a:focus {
+.header-link a:hover,
+.header-link a:focus {
  color: var(--hover-text-color);
 }
+
+/*решение*/
+.bbc{
+ background-color: var(--footer-background-color);
+}
+
+.bbc-text {
+ font-weight: 900;
+ font-size: 44px;
+ line-height: 1.36;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ color: var(--text-wite-color)
+}
+
+.bbc-button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
   
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+  font-family: inherit;
+  background: var(--hover-text-color);
+  color: var(--text-wite-color);
+}
+
+/*4абзаца*/
+
+.features-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--text-black-color)
+}
+
+.cfeatures-p {
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.14;
+ color: var(--text-grey-color)
+}
+
+/*чем занимаемся*/
+
