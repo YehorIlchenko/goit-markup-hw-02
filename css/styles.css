@@ -1,4 +1,4 @@
-:root {
+:root{
  --body-background-color: #FFFFFF;
  --footer-background-color: #2F303A;
  --main-backgraund-color: #e5e5e5;
@@ -10,63 +10,64 @@
 } 
 
 /*общие*/
-a {
+a{
  text-decoration: none;
 }
 
-li {
+
+li{
  list-style: none;
 }
 
-.head {
+.head{
  color: var(--text-black-color);
  background-color: var(--body-background-color);
 }
 
-body {
+body{
  font-family: Roboto;
 }
 
 
 /*логотип-веб*/
-.logo {
+.logo{
  font-family: Raleway;
  font-weight: 700;
  font-size: 26px;
- line-height: 1.19;
+ line-height: 31px;
  letter-spacing: 0.03em; 
- color: var(--hover-text-color);
-}
-.logo-web {
  color: var(--text-black-color);
+}
+.logo-web{
+ color: var(--hover-text-color);
 }
 
 /*меню-контакты*/
-.nav {
+.web-link a{
  font-weight: 500;
  font-size: 14px;
  line-height: 1.14;
  letter-spacing: 0.02em;
- color: var(--text-black-color);
+ color: #212121;
+ text-decoration: none;
 }
 
-.nav:visited,
-.nav a:hover,
-.nav a:focus {
+.web-link a:hover,
+.web-link a:focus{
  color: var(--hover-text-color);
 }
   
 
-.header-link a {
+.header-link a{
  font-weight: 500;
  font-size: 14px;
  line-height: 1.14;
  letter-spacing: 0.02em;
- color: var(--grey-text-color);
+ color: var(--text-grey-color);
 }
 
 .header-link a:hover,
-.header-link a:focus {
+.header-link a:focus{
  color: var(--hover-text-color);
 }
 
@@ -75,16 +76,18 @@ body {
  background-color: var(--footer-background-color);
 }
 
-.bbc-text {
+.bbc-text{
  font-weight: 900;
  font-size: 44px;
  line-height: 1.36;
  letter-spacing: 0.06em;
+ text-align: center;
  text-transform: uppercase;
  color: var(--text-wite-color)
 }
 
-.bbc-button {
+.bbc-button{
+
     width: 200px;
     height: 50px;
     left: 700px;
@@ -94,22 +97,26 @@ body {
     font-size: 16px;
     line-height: 1.88;
 
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+  
   font-family: inherit;
   background: var(--hover-text-color);
   color: var(--text-wite-color);
+
 }
 
 /*4абзаца*/
 
-.features-h3 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--text-black-color)
+.features-h3{
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.14;
+ text-transform: uppercase;
+ color: var(--text-black-color)
 }
 
-.cfeatures-p {
+.features-p{
  font-weight: 400;
  font-size: 14px;
  line-height: 1.14;
@@ -117,4 +124,123 @@ body {
 }
 
 /*чем занимаемся*/
+.doing{
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.17;
+ letter-spacing: 0.03em;
+  
+ color: var(--text-black-color);
+}
+  
+.doing{
+ background-color: var(--body-background-color);
+}
 
+/*команда*/
+
+.team h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--text-black-color);
+}
+
+.team h3{
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 19px;
+
+ color: var(--text-black-color);
+}
+
+.team p{
+ font-size: 16px;
+ line-height: 19px;
+
+ color: var(--text-grey-color);
+}
+
+.team{
+ background-color: var(--buton-color);
+}
+
+/*подвад*/
+
+.footer{
+ background-color: var(--footer-background-color);
+}
+
+.logo-footer{
+ font-family: Raleway;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 31px;
+ letter-spacing: 0.03em; 
+ color: var(--text-wite-color);
+}
+.logo-web-footer{
+ color: var(--hover-text-color);
+}
+
+.footer p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text-wite-color)
+}
+
+.footer-link a{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+
+ color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link a:hover,
+.footer-link a:focus{
+ color: var(--hover-text-color)
+}
+
+/*Портфолио*/
+/*кнопки*/
+
+.projects{
+  background-color: var(--main-backgraund-color);  
+}
+
+.button-portfolio{
+ background-color: var(--buton-color);
+}
+
+.button-portfolio:hover,
+.button-portfolio :focus {
+  background-color: var(--hover-text-color);
+  color: var(--text-wite-color);
+}
+
+/*проекты*/
+
+.projects-view-h3{
+ font-size: 18px;
+ line-height: 36px;
+ letter-spacing: 0.06em;
+ color: var(--text-black-color);
+}
+
+.projects-view-p{
+ font-size: 16px;
+ line-height: 30px;
+ letter-spacing: 0.03em;
+ color: var(--text-grey-color);
+}
